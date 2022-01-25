@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+nav a {
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #0888d9;
+}
+
+ul {
+        font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 5px;
+}
