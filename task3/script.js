@@ -7,7 +7,6 @@ function makeGreen() {
 }
 
 trafficLightEl.addEventListener('click', makeGreen);
-trafficLightEl.preventDefault();
 
 function makeYellow() {
     trafficLightEl.style.background = ('yellow');
@@ -15,7 +14,6 @@ function makeYellow() {
     trafficLightEl.addEventListener('click', makeRed);
 }
 trafficLightEl.addEventListener('click', makeYellow);
-trafficLightEl.preventDefault();
 
 function makeRed() {
     trafficLightEl.style.background = ('red');
