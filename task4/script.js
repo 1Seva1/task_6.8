@@ -1,4 +1,4 @@
-const editLink = document.querySelector('a');
+const editLink = document.querySelector('#editLink');
 
 editLink.addEventListener('click', (event) =>{
     event.preventDefault();
