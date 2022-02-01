@@ -1,6 +1,5 @@
 const trafficLightEl = document.querySelector('#allLight');
 let checkLight = document.querySelectorAll('#trafficLight');
-console.log(checkLight);
 
 trafficLightEl.addEventListener('click', makeGreen)
 function makeGreen() {
